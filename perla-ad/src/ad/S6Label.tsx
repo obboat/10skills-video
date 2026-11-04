@@ -3,7 +3,7 @@ import { GOLD, Line, Shot, TextBlock } from "./shared";
 
 export const S6Label: React.FC = () => (
   <AbsoluteFill>
-    <Shot fx={410} fy={700} fromScale={1.8} toScale={2.05} at={[540, 760]} drift={[-40, 0]} darken={0.35} />
+    <Shot fx={663} fy={796} fromScale={1.35} toScale={1.5} at={[540, 760]} darken={0.3} />
     <AbsoluteFill
       style={{ background: "linear-gradient(0deg, rgba(5,7,12,0.92) 0%, rgba(5,7,12,0.2) 55%, rgba(5,7,12,0) 100%)" }}
     />

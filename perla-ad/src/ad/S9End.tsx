@@ -13,7 +13,7 @@ export const S9End: React.FC = () => {
           WebkitMaskImage: "radial-gradient(ellipse 42% 34% at 50% 36%, #000 55%, transparent 100%)",
         }}
       >
-        <Shot fx={410} fy={1000} fromScale={0.62} toScale={0.66} at={[540, 700]} darken={0.2} />
+        <Shot fx={650} fy={960} fromScale={0.66} toScale={0.7} at={[540, 720]} darken={0.15} />
       </AbsoluteFill>
       <AbsoluteFill
         style={{

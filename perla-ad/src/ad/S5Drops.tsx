@@ -3,7 +3,7 @@ import { Line, Shot, TextBlock } from "./shared";
 
 export const S5Drops: React.FC = () => (
   <AbsoluteFill>
-    <Shot fx={450} fy={1300} fromScale={2.4} toScale={2.0} at={[540, 1150]} drift={[0, -60]} darken={0.25} />
+    <Shot fx={474} fy={1330} fromScale={1.42} toScale={1.3} at={[540, 1600]} drift={[0, -30]} darken={0.2} />
     <AbsoluteFill
       style={{ background: "linear-gradient(180deg, rgba(5,7,12,0.85) 0%, rgba(5,7,12,0) 45%)" }}
     />

@@ -11,7 +11,7 @@ export const S3Reveal: React.FC = () => {
           filter: `brightness(${interpolate(frame, [0, 120], [0.3, 1], { extrapolateRight: "clamp" })})`,
         }}
       >
-        <Shot fx={410} fy={960} fromScale={1.2} toScale={1.05} at={[540, 900]} darken={0.15} />
+        <Shot fx={650} fy={960} fromScale={1.12} toScale={1.0} at={[540, 900]} darken={0.12} />
       </AbsoluteFill>
       <AbsoluteFill
         style={{ background: "linear-gradient(180deg, rgba(5,7,12,0) 55%, rgba(5,7,12,0.92) 100%)" }}

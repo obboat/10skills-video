@@ -124,7 +124,7 @@ export const Shot: React.FC<{
   return (
     <AbsoluteFill style={{ backgroundColor: INK, overflow: "hidden" }}>
       <Img
-        src={staticFile("hero.jpg")}
+        src={staticFile("bottle-full.jpg")}
         style={{
           width: 1080,
           height: 1920,

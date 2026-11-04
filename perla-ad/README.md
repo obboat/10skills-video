@@ -1,6 +1,6 @@
 # Perla: "Pour Something Pure" (spec ad)
 
-A 2-minute, 9:16 vertical spec advertisement for Perla Mineral Water, built in Remotion from a single product photo.
+A 2-minute, 9:16 vertical spec advertisement for Perla Mineral Water, built in Remotion from a single product image.
 
 **This is a portfolio/spec piece. It is not affiliated with or endorsed by the Perla brand.** The end card says so.
 
@@ -26,7 +26,7 @@ No claims are made about the water's source, mineral content, producer or certif
 
 ## Assets
 
-- `public/hero.jpg`: the supplied product photo, colour-graded (cooler, darker, vignette, brand colours preserved).
+- `public/bottle-full.jpg`: the supplied full-bottle product image (399×501 source), with the GFA logo and the hashtag removed by inpainting, upscaled 5.4× and extended to 9:16 with a navy gradient. Because the source is small, camera moves are kept to 1.55× zoom or less.
 - `public/score.mp3`: original ambient score synthesized for this project (numpy + ffmpeg), with a droplet sound at the impact frame.
 - `public/fonts/`: Cormorant Garamond and Montserrat (SIL Open Font License) from [google/fonts](https://github.com/google/fonts).
 

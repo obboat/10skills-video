@@ -3,7 +3,7 @@ import { Line, Shot, TextBlock } from "./shared";
 
 export const S4Cap: React.FC = () => (
   <AbsoluteFill>
-    <Shot fx={410} fy={240} fromScale={2.4} toScale={2.8} at={[540, 700]} drift={[0, 40]} darken={0.3} />
+    <Shot fx={812} fy={470} fromScale={1.35} toScale={1.55} at={[560, 640]} darken={0.25} />
     <AbsoluteFill
       style={{ background: "linear-gradient(0deg, rgba(5,7,12,0.85) 0%, rgba(5,7,12,0) 45%)" }}
     />

@@ -40,3 +40,28 @@ npx remotion render PerlaAd out/perla-ad.mp4
 
 In sandboxed environments without Remotion's Chrome download, add
 `--browser-executable=/path/to/chrome-headless-shell`.
+
+---
+
+# Gen Z cut: "Chale, stay hydrated" (composition `PerlaGenZ`)
+
+A 60-second, 9:16 version: bright palette (sky, electric blue, orange, lime, pink), chunky Unbounded type, stickers and sparkles, with hard cuts and a white flash on every bar line. The original amapiano-style track (`public/genz-beat.mp3`, synthesized here) runs at 112.5 BPM, which is exactly 16 frames per beat, so every slam and pop lands on the beat.
+
+| # | Frames | Copy |
+|---|--------|------|
+| 1 | 0–128 | Chale. The sun no dey joke |
+| 2 | 128–256 | Your body be like: WATER. NOW. (it's giving dehydrated) |
+| 3 | 256–448 | Enter: bottle drop + PERLA / mineral water / main character stickers (beat drops here) |
+| 4 | 448–576 | No cap, e cold. |
+| 5 | 576–768 | Hydration check: Lecture hall, Match day, Trotro ride, Night out |
+| 6 | 768–960 | Collage + STAY HYDRATED / SIP SIP HOORAY tickers |
+| 7 | 960–1152 | POV: you finally drank water. glowing / skin? clear. |
+| 8 | 1152–1344 | Fun fact: "perla" = pearl in Spanish & Italian. Rare. Like you. (breakdown) |
+| 9 | 1344–1536 | sip. chill. vibe. repeat. |
+| 10 | 1536–1800 | PERLA · MINERAL WATER · chale, stay hydrated + spec disclaimer |
+
+The bottle image (`public/bottle-card.jpg`) is the same cleaned source as the classy cut, upscaled 3× with a brightness and saturation lift. Fonts: Unbounded and Space Grotesk (SIL OFL).
+
+```bash
+npx remotion render PerlaGenZ out/perla-genz.mp4
+```
